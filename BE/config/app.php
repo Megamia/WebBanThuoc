@@ -114,7 +114,7 @@ return [
 
         // Core Service Provider
         System\ServiceProvider::class,
-        Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
+
         // Package Service Providers...
         // Illuminate\Html\HtmlServiceProvider::class, // Example
 
@@ -134,7 +134,6 @@ return [
     'aliases' => array_merge(include(base_path('modules/system/aliases.php')), [
 
         // 'Str' => Illuminate\Support\Str::class, // Example
-        'JWTAuth' => Tymon\JWTAuth\Facades\JWTAuth::class,
     ]),
 
     /*

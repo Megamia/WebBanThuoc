@@ -1,11 +1,9 @@
-<?php
-
-namespace Vdomah\JWTAuth\Classes;
+<?php namespace Vdomah\JWTAuth\Classes;
 
 use Config;
 use Vdomah\JWTAuth\Models\Settings;
 
-class JWTAuthServiceProvider extends \Tymon\JWTAuth\Providers\LaravelServiceProvider
+class JWTAuthServiceProvider extends \Tymon\JWTAuth\Providers\JWTAuthServiceProvider
 {
 
     /**
