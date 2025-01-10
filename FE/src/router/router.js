@@ -1,25 +1,31 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import MacDinh from '@/page/MacDinh.vue'
-import DangNhap from '@/page/DangNhap.vue'
-import DangKy from '@/page/DangKy.vue'
+import DefaultPage from '@/page/DefaultPage.vue'
+import Login from '@/page/LoginPage.vue'
+import RegisterPage from '@/page/RegisterPage.vue'
+import DescriptionLists from '@/page/DescriptionLists.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
-      name: 'mac-dinh',
-      component: MacDinh,
+      name: 'default-page',
+      component: DefaultPage,
     },
     {
-      path: '/dang-nhap',
-      name: 'dang-nhap',
-      component: DangNhap,
+      path: '/login',
+      name: 'login',
+      component: Login,
     },
     {
-      path: '/dang-ky',
-      name: 'dang-ky',
-      component: DangKy,
+      path: '/register',
+      name: 'register',
+      component: RegisterPage,
+    },
+    {
+      path: '/description-lists/:id',
+      name: 'description-lists',
+      component: DescriptionLists,
     },
   ],
 })

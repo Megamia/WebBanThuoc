@@ -1,0 +1,10 @@
+columns:
+    name:
+        label: Name
+        type: text
+    price:
+        label: Price
+        type: text
+    descriptions:
+        label: Description
+        type: text

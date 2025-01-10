@@ -1,0 +1,10 @@
+name: ProductController
+form: $/dat/product/models/products/fields.yaml
+modelClass: Dat\Product\Models\Products
+defaultRedirect: dat/product/productcontroller
+create:
+    redirect: 'dat/product/productcontroller/update/:id'
+    redirectClose: dat/product/productcontroller
+update:
+    redirect: dat/product/productcontroller
+    redirectClose: dat/product/productcontroller

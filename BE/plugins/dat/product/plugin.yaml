@@ -1,0 +1,11 @@
+plugin:
+    name: 'dat.product::lang.plugin.name'
+    description: 'dat.product::lang.plugin.description'
+    author: dat
+    icon: oc-icon-cart-arrow-down
+    homepage: ''
+navigation:
+    product:
+        label: product
+        url: dat/product/productcontroller
+        icon: icon-cart-plus
