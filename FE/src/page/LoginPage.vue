@@ -119,7 +119,6 @@ const handleLogin = async () => {
       }
     );
     if (response.status === 200) {
-      console.log(response);
       localStorage.setItem("token", response.data.token);
       router.push("/");
       return;

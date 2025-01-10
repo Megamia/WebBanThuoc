@@ -11,3 +11,15 @@ fields:
         label: Description
         span: auto
         type: text
+    type:
+        label: Type
+        span: auto
+        type: text
+    quantity:
+        label: Quantity
+        span: auto
+        type: text
+    volum:
+        label: Volum
+        span: auto
+        type: text

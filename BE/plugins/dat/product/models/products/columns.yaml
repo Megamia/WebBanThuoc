@@ -8,3 +8,12 @@ columns:
     descriptions:
         label: Description
         type: text
+    type:
+        label: Type
+        type: text
+    quantity:
+        label: Quantity
+        type: number
+    volum:
+        label: Volum
+        type: number

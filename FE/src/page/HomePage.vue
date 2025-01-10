@@ -46,13 +46,6 @@ import { useRouter } from "vue-router";
 const router = useRouter();
 
 const changeToDescriptionLists = async (id) => {
-  // console.log(id);
-
-  // const response = await axios.post(
-  //   `${import.meta.env.VITE_APP_URL_API}/dataProducts/${id}`
-  // );
-  // console.log(response);
-
   router.push(`/description-lists/${id}`);
 };
 

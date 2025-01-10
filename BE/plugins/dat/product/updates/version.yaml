@@ -6,3 +6,6 @@ v1.0.2:
 v1.0.3:
     - 'Updated table dat_product_'
     - builder_table_update_dat_product_.php
+v1.0.4:
+    - 'Updated table dat_product_'
+    - builder_table_update_dat_product__2.php
